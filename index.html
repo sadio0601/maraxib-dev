@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MARAXIB — Développement Web & Solutions Digitales</title>
+  <meta name="description" content="MARAXIB — Studio de développement web. Sites vitrines, applications web, solutions digitales sur mesure." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <!-- <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f172a'/><text x='50' y='68' font-size='52' font-family='Arial' font-weight='bold' fill='%2338bdf8' text-anchor='middle'>M</text></svg>" /> -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#accueil" class="logo">
+        <img src="assets/logo.svg" alt="MARAXIB" height="42" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact" class="btn-nav">Me contacter</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="container hero-inner">
+      <p class="eyebrow">Studio de développement web</p>
+      <h1>Des sites web <span class="gradient-text">modernes</span>,<br />pensés pour convertir.</h1>
+      <p class="hero-sub">
+        MARAXIB conçoit des sites vitrines, applications web et solutions digitales sur mesure.
+        Basé au Sénégal, disponible à distance partout dans le monde.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Démarrer un projet →</a>
+        <a href="#projets" class="btn btn-ghost">Voir mes réalisations</a>
+      </div>
+      <div class="hero-badges">
+        <span>⚡ Développement rapide</span>
+        <span>📱 100% responsive</span>
+        <span>🔒 Code propre & sécurisé</span>
+      </div>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section-title">Ce que je <span class="gradient-text">propose</span></h2>
+      <p class="section-sub">Des services pensés pour les indépendants, startups et PME.</p>
+
+      <div class="grid-3">
+        <article class="card">
+          <div class="card-icon">💻</div>
+          <h3>Site vitrine</h3>
+          <p>Un site élégant, rapide et optimisé SEO pour présenter votre activité et attirer vos clients.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">⚙️</div>
+          <h3>Application web</h3>
+          <p>Développement d'applications web sur mesure (dashboard, espace client, gestion interne).</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🛒</div>
+          <h3>E-commerce</h3>
+          <p>Boutique en ligne performante : paiement, gestion des stocks, expérience d'achat fluide.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🎨</div>
+          <h3>UI / UX Design</h3>
+          <p>Interfaces modernes et intuitives centrées sur l'utilisateur et vos objectifs business.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🔧</div>
+          <h3>Maintenance</h3>
+          <p>Suivi, mises à jour, corrections et optimisation continue de votre site ou application.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Optimisation</h3>
+          <p>Amélioration des performances (Core Web Vitals), SEO technique et accessibilité.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="section section-alt" id="apropos">
+    <div class="container about-inner">
+      <div class="about-text">
+        <h2 class="section-title">À propos de <span class="gradient-text">MARAXIB</span></h2>
+        <p>
+          MARAXIB est un studio de développement web fondé par un étudiant en Master Informatique,
+          spécialisé en développement web. Mon objectif : offrir aux entreprises locales et internationales
+          des solutions digitales fiables, modernes et accessibles.
+        </p>
+        <p>
+          Chaque projet est traité avec rigueur, du cahier des charges à la mise en ligne,
+          en passant par le design, le développement et l'optimisation.
+        </p>
+        <ul class="about-list">
+          <li>✅ Développeur Full-Stack (HTML, CSS, JS, PHP, React, Node.js)</li>
+          <li>✅ Approche centrée utilisateur & performance</li>
+          <li>✅ Communication claire et livraisons à temps</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <div class="avatar">M</div>
+        <p class="about-name">MARAXIB</p>
+        <p class="about-role">Développement Web & Solutions Digitales</p>
+        <div class="about-skills">
+          <span>HTML/CSS</span><span>JavaScript</span><span>React</span>
+          <span>Node.js</span><span>PHP</span><span>MySQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section class="section" id="projets">
+    <div class="container">
+      <h2 class="section-title">Quelques <span class="gradient-text">projets</span></h2>
+      <p class="section-sub">Un aperçu de réalisations récentes.</p>
+
+      <div class="grid-3">
+        <article class="project-card">
+          <div class="project-img" style="background:linear-gradient(135deg,#38bdf8,#0ea5e9)">🌐</div>
+          <h3>Site vitrine PME</h3>
+          <p>Site moderne pour une entreprise locale, optimisé SEO et mobile.</p>
+          <span class="tag">HTML / CSS / JS</span>
+        </article>
+        <article class="project-card">
+          <div class="project-img" style="background:linear-gradient(135deg,#a78bfa,#7c3aed)">📊</div>
+          <h3>Dashboard admin</h3>
+          <p>Interface de gestion avec authentification et statistiques temps réel.</p>
+          <span class="tag">React / Node.js</span>
+        </article>
+        <article class="project-card">
+          <div class="project-img" style="background:linear-gradient(135deg,#34d399,#059669)">🛍️</div>
+          <h3>Boutique en ligne</h3>
+          <p>E-commerce complet avec panier, paiement et back-office.</p>
+          <span class="tag">PHP / MySQL</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <h2 class="section-title">Travaillons <span class="gradient-text">ensemble</span></h2>
+        <p>Un projet en tête ? Discutons-en. Réponse sous 24h.</p>
+        <ul class="contact-list">
+          <li>📧 <a href="mailto:camarasadio2611@gmail.com">camarasadio2611@gmail.com</a></li>
+          <li>📱 <a href="tel:+221772162895">+221 77 216 28 95</a></li>
+          <li>🌐 <a href="https://maraxib-dev.netlify.app/">www.maraxib.com</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formsubmit.co/camarasadio2611@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Nouveau message depuis maraxib.com" />
+        <input type="text" name="name" placeholder="Votre nom" required />
+        <input type="email" name="email" placeholder="Votre email" required />
+        <input type="text" name="sujet" placeholder="Sujet du projet" required />
+        <textarea name="message" rows="5" placeholder="Décrivez votre projet..." required></textarea>
+        <button type="submit" class="btn btn-primary">Envoyer le message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#accueil" class="logo">
+            <img src="assets/logo.svg" alt="MARAXIB" height="42" />
+        </a>
+        <p class="footer-sub">Développement Web & Solutions Digitales</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> MARAXIB. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
